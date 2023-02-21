@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledHeader, StyledIcon } from "./Styled";
+import { StyledHeader } from "./Styled";
 
 const Header = (props) => {
   return <StyledHeader>{props.text}</StyledHeader>;

@@ -88,20 +88,39 @@ const CryptoDetails = () => {
       </TableWrapper>
       <SectionWrapper>
         <MarketWrapper>
-          <Text>24 Hour Low</Text>
-          <Text>$ {market_data?.low_24h.usd.toLocaleString()}</Text>
+          <div>
+            <Text>
+              24 Hour Low
+              <span>$ {market_data?.low_24h.usd.toLocaleString()}</span>
+            </Text>
+            <Line></Line>
+          </div>
 
-          <Text>Market Cap</Text>
-          <Text>$ {market_data?.market_cap.usd.toLocaleString()}</Text>
+          <div>
+            <Text>
+              Market Cap
+              <span>$ {market_data?.market_cap.usd.toLocaleString()}</span>
+            </Text>
+            <Line></Line>
+          </div>
         </MarketWrapper>
-        <Line></Line>
+
         <MarketWrapper>
-          <Text>24 Hour High</Text>
-          <Text>$ {market_data?.high_24h.usd.toLocaleString()}</Text>
-          <Text>Circulating Supply</Text>
-          <Text>{market_data?.circulating_supply.toFixed(0)}</Text>
+          <div>
+            <Text>
+              24 Hour High
+              <span>${market_data?.high_24h.usd.toLocaleString()}</span>
+            </Text>
+            <Line></Line>
+          </div>
+          <div>
+            <Text>
+              Circulating Supply
+              <span>{market_data?.circulating_supply.toFixed(0)}</span>
+            </Text>
+            <Line></Line>
+          </div>
         </MarketWrapper>
-        <Line></Line>
       </SectionWrapper>
       <SectionWrapper>
         <Paragraph>About</Paragraph>

@@ -56,16 +56,14 @@ export const Price = styled.p`
 `;
 export const Text = styled.p`
   color: white;
-  margin-right: 20px;
-  margin-left: 20px;
-  max-width: 140px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const MarketWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 50px;
 `;
 
 export const TableWrapper = styled.table`
@@ -100,17 +98,3 @@ export const TableData = styled.td`
 export const Line = styled.hr`
   border: 0.1px solid white;
 `;
-
-// -webkit-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.75);
-// -moz-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.75);
-// box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.75);
-
-// .market-data {
-//   display: grid;
-//   grid-template-columns: 1fr 1fr;
-//   grid-gap: 20px 50px;
-// }
-// .market-data p {
-//   display: flex;
-//   justify-content: space-between;
-// }
