@@ -1,10 +1,10 @@
 import React from "react";
-import Crypto from "./pages/Crypto/Crypto";
+import Crypto from "./pages/Crypto/Index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/Index";
 import { GlobalStyle } from "./Styled";
 
-import CryptoDetails from "./pages/CryptoDetails/CryptoDetails";
+import CryptoDetails from "./pages/CryptoDetails/Index";
 
 const App = () => {
   return (

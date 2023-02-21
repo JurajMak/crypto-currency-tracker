@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import CryptoItem from "../../components/CryptoItem/CryptoItem";
+import CryptoItem from "../../components/CryptoItem/Index";
 import { StyledTable, StyledTh } from "./Styled";
 import { useNavigate } from "react-router-dom";
 
